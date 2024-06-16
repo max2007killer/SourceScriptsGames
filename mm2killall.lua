@@ -1,5 +1,4 @@
 ---Bro buy Spray Paint and equip (Emotes) category
-getgenv().killall = true --- ENABLED(true) OR DISABLED(false) 
     while getgenv().killall do task.wait()
         local plr = game.Players.LocalPlayer
          for i,v in pairs(game.Players:GetPlayers()) do
